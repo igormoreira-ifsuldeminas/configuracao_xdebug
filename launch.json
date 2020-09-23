@@ -1,0 +1,15 @@
+ {
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "php",
+      "request": "launch",
+      "name": "Listen for XDebug",
+      "pathMappings": {
+        "/home/www/ifvest": "/home/igor/www/work/ifvest"
+      },
+      "port": 9001,
+      "log": true,
+    }, 
+  ]
+}

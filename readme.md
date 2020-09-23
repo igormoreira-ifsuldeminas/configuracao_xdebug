@@ -5,7 +5,9 @@ service apache2 restart
 php --info | grep xdebug
 
 ```php
-if (function_exists('xdebug_break')) {
-  xdebug_break(); 
-}  
+if (!function_exists('xdebug_break')) {
+  function xdebug_break() {}
+}
+        
+xdebug_break(); 
 ```

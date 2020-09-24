@@ -1,4 +1,6 @@
  apt install -y php5.6-xdebug
+ 
+ apt install -y php7.2-xdebug
 
 nano /etc/php/5.6/apache2/conf.d/20-xdebug.ini 
 

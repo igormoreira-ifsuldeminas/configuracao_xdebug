@@ -2,7 +2,7 @@
  
  apt install -y php7.2-xdebug
 
-nano /etc/php/5.6/apache2/conf.d/20-xdebug.ini 
+nano /etc/php/*/apache2/conf.d/20-xdebug.ini 
 
 service apache2 restart
 
